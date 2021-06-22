@@ -1,0 +1,6 @@
+import './components/modul-1.js'
+import './components/modul-2.js'
+import './components/modul-3.js'
+import './components/modul-4.js'
+import './components/modul-5.js'
+import './components/modul-6.js'

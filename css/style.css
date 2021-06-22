@@ -1,0 +1,188 @@
+:root {
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-duration: 350ms;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container-box {
+  min-width: 300px;
+  min-height: 100px;
+  background-color: rgb(237, 250, 181);
+  margin: 10px 65px;
+  border-radius: 10px;
+  border: solid 1px rgb(183, 0, 255);
+  padding: 10px;
+  text-align: center;
+}
+/* ===================== */
+#quantity,
+.degrees__width-input,
+.number__width-input {
+  width: 4em;
+  padding: 0 5px;
+}
+
+.tv {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.tv span {
+  font-size: 33px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#formNumbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  align-items: center;
+  margin: 0 auto;
+}
+/* ================================ */
+
+/* =============== task 3 ================= */
+
+.mathAction__number {
+  width: 3em;
+  padding: 0 5px;
+}
+
+.mathAction__mathSign {
+  border: solid 1px tomato;
+  border-radius: 5px;
+  width: 40px;
+  margin: 5px auto;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.active {
+  background-color: rgb(182, 248, 180);
+}
+
+/* ================================ */
+
+/* =========== task 4 ===================== */
+.degrees__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.degrees__width-input {
+  margin-bottom: 10px;
+}
+
+/* ================================ */
+
+/* =============== task-8 ================= */
+.number-minutes__text {
+  height: 30px;
+  /* width: ;
+  background-color: aqua; */
+}
+
+/* ================================ */
+
+/* ============= task-9 =================== */
+.game__img-cont {
+  padding: 5px;
+  background-color: #ddff007c;
+  margin-bottom: 10px;
+  outline: solid 1px;
+}
+
+.game__list-images {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  /* align-content: center; */
+
+}
+
+/* .game__item-image, */
+.game__img-container,
+.game__img-comp {
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border: solid 2px;
+  border-radius: 10px;
+  background-color: rgba(77, 74, 255, 0.672);
+  cursor: pointer;
+  transition: background-color var(--animation-duration), transform var(--animation-duration) var(--timing-function);
+}
+
+.active-user{ 
+   /* transform: scale(1.03); */
+  background-color: rgba(32, 214, 255, 0.542);
+
+}
+
+.game__img-container:hover,
+.game__img-comp:hover {
+  transform: scale(1.05);
+}
+
+.losing{
+  /* transform: scale(1.03); */
+  background-color: red;
+}
+
+.win{
+   /* transform: scale(1.03); */
+  background-color: rgb(7, 255, 7);
+}
+
+.draw{
+   transform: scale(1.03);
+  background-color: rgba(237, 250, 250, 0.946);
+}
+
+.question-mark{
+  font-size: 80px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.game__img-user,
+.img-comp {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.show {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+
+/* ================================ */
+
+/* ================================ */
+/* ================================ */
+
+/* ================================ */
