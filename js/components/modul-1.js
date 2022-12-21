@@ -16,11 +16,11 @@ function onFormNumber(e) {
 
   if (lengthYear === 4) {
     if (numberYear % 4 === 0) {
-      divEl.textContent = "ПОЗДРОВЛЯЕМ Вы родились в высокосный год";
+      divEl.textContent = "ВІТАЄМО Ви народилися в високосний рік";
       divEl.style.color = "green";
       return;
     } else {
-      divEl.textContent = "К сожелению Вы родились в обычный год";
+      divEl.textContent = "Нажаль Ви народилися в звичайний рік";
       divEl.style.color = "red";
       return;
     }
